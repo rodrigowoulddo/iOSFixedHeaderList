@@ -10,16 +10,26 @@
         <!--Fixed Header List-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController title="Fixed Header List" id="BYZ-38-t0r" customClass="ViewController" customModule="Fixed_Header_List" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Fixed Header List" id="BYZ-38-t0r" customClass="ViewController" customModule="Fixed_Header" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QC8-rn-Mcy">
                                 <rect key="frame" x="0.0" y="44" width="414" height="150"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="This is a hidable view" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CLU-98-YtA">
+                                        <rect key="frame" x="126" y="64.5" width="162" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
                                 <color key="backgroundColor" red="0.1803921568627451" green="0.1803921568627451" blue="0.52156862745098043" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
+                                    <constraint firstItem="CLU-98-YtA" firstAttribute="centerY" secondItem="QC8-rn-Mcy" secondAttribute="centerY" id="XY7-i5-saw"/>
                                     <constraint firstAttribute="height" constant="150" id="b5H-hN-rcq"/>
+                                    <constraint firstItem="CLU-98-YtA" firstAttribute="centerX" secondItem="QC8-rn-Mcy" secondAttribute="centerX" id="bfI-vu-Fs8"/>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AeE-ZN-KtU">
