@@ -20,8 +20,8 @@ class ViewController: UIViewController {
     
     // MARK: - Header Constants
     private let MINIMUM_CONSTANT_VALUE: CGFloat = -150.0 /// This is the hidable view's height
+    
     @IBOutlet weak var hidableViewTopConstraint: NSLayoutConstraint!
-
     private var lastContentOffset: CGFloat = 0.0
 
     // MARK: - View Did Load
